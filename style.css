@@ -1,0 +1,117 @@
+body {
+  font-family: "Roboto Serif", sans-serif;
+  width: 80%;
+  margin: auto;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+}
+.logo {
+  color: blueviolet;
+  font-size: larger;
+  font-weight: 700;
+}
+.nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 10px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: 700px;
+}
+.focused-section {
+  display: flex;
+  padding: 5%;
+  margin: 2%;
+}
+.focused-section .right-side {
+  width: 50%;
+  padding-left: 2%;
+}
+.focused-section .right-side img {
+  width: 100%;
+}
+.color-text {
+  color: blueviolet;
+}
+.link-button {
+  background-color: blueviolet;
+  color: white;
+  font-weight: 700;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.left-side {
+  padding-right: 2%;
+}
+.title {
+  text-align: center;
+  color: brown;
+}
+.mission-section {
+  display: flex;
+  padding: 5%;
+  margin: 2%;
+}
+.mission-section img {
+  width: 60%;
+}
+.mission {
+  width: 30%;
+  background-color: antiquewhite;
+  padding: 3%;
+  margin: 2%;
+  border-radius: 10px;
+}
+.vision {
+  width: 30%;
+  background-color: darkseagreen;
+  padding: 3%;
+  margin: 2%;
+  border-radius: 10px;
+}
+.goal {
+  width: 30%;
+  background-color: lightcoral;
+  padding: 3%;
+  margin: 2%;
+  border-radius: 10px;
+}
+.develop-section {
+  display: flex;
+  padding: 5%;
+  margin: 2%;
+}
+.develop-section .left-side {
+  width: 50%;
+}
+.develop-section .left-side img {
+  width: 100%;
+}
+.global-section {
+  display: flex;
+  padding: 5%;
+  margin: 2%;
+}
+.global-section .right-side {
+  width: 50%;
+}
+.global-section .right-side img {
+  width: 100%;
+}
+.footer {
+  background-color: darkslateblue;
+  text-align: center;
+  padding: 5%;
+  color: white;
+}
+.year {
+  color: chocolate;
+}

@@ -35,7 +35,7 @@ body {
   padding-left: 2%;
 }
 .focused-section .right-side img {
-  width: 100%;
+  width: 80%;
 }
 .color-text {
   color: blueviolet;
@@ -48,8 +48,9 @@ body {
   text-decoration: none;
   border-radius: 5px;
 }
-.left-side {
+.focused-section .left-side {
   padding-right: 2%;
+  width: 50%;
 }
 .title {
   text-align: center;
@@ -91,6 +92,7 @@ body {
 }
 .develop-section .left-side {
   width: 50%;
+  padding-right: 2%;
 }
 .develop-section .left-side img {
   width: 100%;
